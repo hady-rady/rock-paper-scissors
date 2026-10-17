@@ -1,50 +1,72 @@
 # Rock Paper Scissors
 
-## Project Overview
-A Python implementation of the Rock Paper Scissors game using a strategy designed to compete against different opponents.
+A Python implementation of the classic Rock Paper Scissors game, featuring a player strategy designed to compete against multiple built-in opponents.
 
-## Technologies Used
-- Python
-- Basic programming concepts
-- Functions and lists
+## Project Overview
+
+This project was completed as part of the **freeCodeCamp Machine Learning with Python Projects** curriculum. The goal is to implement a `player()` function that predicts opponents' moves and performs well against different playing strategies.
 
 ## Project Objective
-The goal is to implement a player function that predicts the opponent's next move based on previous moves and improves its performance against different strategies.
+
+- Develop a strategic player using Python.
+- Analyze opponents' previous moves.
+- Test the strategy against multiple built-in opponents.
+- Achieve a win rate of at least 60% against each opponent.
+
+## Technologies Used
+
+- Python
+- Lists and Dictionaries
+- Functions
+- Pattern Recognition
+- Unit Testing
 
 ## Project Structure
-- `RPS.py` — Main player strategy.
-- `RPS_game.py` — Game logic and opponent strategies.
-- `test_module.py` — Tests the player against different opponents.
-- `main.py` — Main project entry point.
 
-## How to Run
-Open the project in a Python environment and run the game using the provided Python files.
+| File | Description |
+|---|---|
+| `RPS.py` | Contains the player strategy and prediction logic. |
+| `RPS_game.py` | Contains the game logic and built-in opponents. |
+| `test_module.py` | Tests the player against the four opponents. |
+| `main.py` | Main project entry point. |
 
-## Project Category
-Python · Game Strategy · Algorithmic Thinking
 ## Results
 
-- Successfully completed the freeCodeCamp Rock Paper Scissors challenge.
-- Passed all 4 unit tests.
-- Achieved a 99.8%–100% win rate against the built-in opponents during testing.
+**Status: All tests passed.**
+
+The player successfully passed all four unit tests against the built-in opponents:
+
+- Quincy
+- Abbey
+- Kris
+- Mrugesh
+
+The recorded test runs showed win rates of approximately 99.8%–100%.
+
+### Test Results Screenshot
+
+![Rock Paper Scissors test results](test-results.png)
 
 ## How to Run
 
-Run the game using Python:
+Make sure Python is installed and the project files are in the same directory.
+
+Run the game:
 
 ```bash
 python main.py
 ```
 
-Run the tests using:
+Run the unit tests:
 
 ```bash
 python -m unittest test_module.py
 ```
 
-## Technologies Used
+## Project Category
 
-- Python
-- Object-Oriented and Functional Programming Concepts
-- Unit Testing
-- Game Strategy and Prediction
+Python · Game Strategy · Algorithmic Thinking · Unit Testing
+
+## Acknowledgments
+
+This project was completed as part of the [freeCodeCamp Machine Learning with Python Projects](https://www.freecodecamp.org/learn/machine-learning-with-python/) curriculum.
