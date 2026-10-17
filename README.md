@@ -22,3 +22,29 @@ Open the project in a Python environment and run the game using the provided Pyt
 
 ## Project Category
 Python · Game Strategy · Algorithmic Thinking
+## Results
+
+- Successfully completed the freeCodeCamp Rock Paper Scissors challenge.
+- Passed all 4 unit tests.
+- Achieved a 99.8%–100% win rate against the built-in opponents during testing.
+
+## How to Run
+
+Run the game using Python:
+
+```bash
+python main.py
+```
+
+Run the tests using:
+
+```bash
+python -m unittest test_module.py
+```
+
+## Technologies Used
+
+- Python
+- Object-Oriented and Functional Programming Concepts
+- Unit Testing
+- Game Strategy and Prediction
