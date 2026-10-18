@@ -66,7 +66,3 @@ python -m unittest test_module.py
 ## Project Category
 
 Python · Game Strategy · Algorithmic Thinking · Unit Testing
-
-## Acknowledgments
-
-This project was completed as part of the [freeCodeCamp Machine Learning with Python Projects](https://www.freecodecamp.org/learn/machine-learning-with-python/) curriculum.
